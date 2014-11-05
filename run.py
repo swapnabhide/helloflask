@@ -14,7 +14,7 @@ from time import sleep
 app = Flask(__name__)
  
 @app.route("/", methods=['GET', 'POST'])
-def hello_monkey():
+def respond():
     
     try:
         child = req_json()
